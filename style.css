@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    width: 100vw;
+    height: 50px; 
+    align-items: center;
+    justify-content: space-around;
+   
+   
+}
+
+.header-left {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+.header-right a { 
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB; 
+    margin: 10px;
+    
+}
+
+
+.hero {
+    background-color: #1F2937 ;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.hero-column {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+.hero-wrapper {
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder; 
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+button {
+   width: 90px;
+   background-color: #3882F6;
+   color: E5E7EB;
+   border: none;
+   height: 25px;
+   border-radius: 5px;
+}
+
+.image-placeholder {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: E5E7EB;
+    width: 300px;
+    padding: 100px;
+
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center; 
+    height: 5vh;
+    color: #E5E7EB;
+}
+
+
+/*
+ TODO
+- Heroen må ha at bilde tar opp dobbel plass enn venstre side (flex-grow)
+
+*/
